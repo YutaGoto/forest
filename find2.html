@@ -21,7 +21,7 @@
         var latlng = position.coords.latitude+','+position.coords.longitude;
 
         // アラート 位置情報
-        alert( latlng ) ;
+        // alert( latlng ) ;
 
         var apiKey = 'AIzaSyBZGpGEgrfWz3oCUx0do6kXToENErhJXGE';
         // Old
@@ -84,6 +84,10 @@ switch (licence){
   case 0:
   // alert("数値は 0");
   text += '<img src="img/license-set_ut.png" alt="" class="img-responsive">';
+  text += '<div class="caption">';
+  text += '<h3 class="name">利用不可</h3>';
+  text += '<p class="profile">この場所の利用は許諾されていません。</p>';
+  text += '</div>';
   break;
 
   case 1:
@@ -143,10 +147,10 @@ switch (licence){
   default:
   // alert("該当なし");
   text += '<img src="img/license-set_ut.png" alt="" class="img-responsive">';
-    // text += '<div class="caption">';
-    // text += '<h3 class="name">非営利–立ち入り–改変</h3>';
-    // text += '<p class="profile">標識やアートといった公共物の設置が可能なライセンス。</p>';
-    // text += '</div>';
+  text += '<div class="caption">';
+  text += '<h3 class="name">利用不可</h3>';
+  text += '<p class="profile">この場所の利用は許諾されていません。</p>';
+  text += '</div>';
     break;
   }
   $('#license').html(text);
