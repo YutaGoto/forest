@@ -84,7 +84,7 @@
             <div class="row">
               <div class="col-md-12">
                 <!-- <h1 class="brand-heading animated"><a href="#about" class="page-scroll">山を遊ぼう</a></h1> -->
-                <h1 class="brand-heading animated">Rights for Right Use of Forrests</h1>
+                <h1 class="brand-heading animated">Rights for Right Use of Forests</h1>
 
                 <!-- <div class="page-scroll"><a href="#about" class="btn btn-circle"><i class="fa fa-angle-double-down animated"></i></a></div> -->
               </div>
@@ -99,7 +99,7 @@
           <div class="col-lg-10 col-lg-offset-1">
             <h2>山のライセンスとは</h2>
             <p>森のクリエイティブコモンズは、森林の保全と活用を促進するために利用権利範囲を整理し意思表示するためのツールです。私有林の管理や保全のルールを地権者ごとに切り分け誰でも適切にアクセスが可能になることによって地権者・利用者ともに山からの恩恵を最大化することが可能になります。</p>
-            <p>“Rights for Right Use of Forrests”</p>
+            <p>“Rights for Right Use of Forests”</p>
             <p>私有林が多くを占めるということは各地域ごとに地権者の利用価値観が違うということです。しかし、私有林であったとしても、森の保全は地域・国の課題でもあります。健全な森が育たなければその土地内だけでなく川やその先にある海、そしてそこに育つ海洋生物への影響も発生します。</p>
             <p>有効利用を求められる地権者ですが、そこから収益をあげたり、保全のために費用をかけたりすることは多くの方にとって現実的ではありません。一方で森で活動したい、森林資源を活用したいという方にとってはどこの森がどこまで使っていいのか、境界線がどこなのか簡単にわかる状況ではありません。</p>
             <p>また、森の活用を促進したとしても、適切な制約条件がなければ森林資源を逆に破壊する一方になってしまいます。</p>
