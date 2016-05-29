@@ -7,13 +7,13 @@
   <meta http-equiv="content-language" content="ja">
   <title>山のライセンス</title>
 
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="https://apis.google.com/js/client.js"></script>
   <script src="https://www.google.com/jsapi"></script>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 
-  <script>
+<script>
   window.onload = function() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
@@ -56,102 +56,102 @@
         function renderLicence(data){
           var text = '';
 
-        //全てを取得した場合の licence の位置
-        // alert(data.rows[0][2]);
+          //全てを取得した場合の licence の位置
+          // alert(data.rows[0][2]);
 
-        // var licence = data.rows[0][2];
+          // var licence = data.rows[0][2];
 
-        var licence = parseInt(data.rows[0][2]);
+          var licence = parseInt(data.rows[0][2]);
 
-        // var licence = 4;
+          // var licence = 4;
 
-        console.log(typeof(licence));
-        console.log(isNaN(licence));
+          console.log(typeof(licence));
+          console.log(isNaN(licence));
 
-        switch (licence){
-          case 0:
-          // alert("数値は 0");
-          text += '<img src="img/license-set_ut.png" alt="" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">利用不可</h3>';
-          text += '<p class="profile">この場所の利用は許諾されていません。</p>';
-          text += '</div>';
-          break;
-
-          case 1:
-          // alert("数値は 1");
-          text += '<img src="img/license-set_pr-np-ig-md.png" alt="保全–非営利–立ち入り–改変" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">保全–非営利–立ち入り–改変</h3>';
-          text += '<p class="profile">間引きや杉の葉広いなどをして、森林を良い状態に保つ活用ができるライセンス。その過程で出た木材などの生産物の営利目的の使用は禁止。</p>';
-          text += '</div>';
-          break;
-
-          case 2:
-          // alert("数値は 2");
-          text += '<img src="img/license-set_pr-ig-md.png" alt="保全–立ち入り–改変" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">保全–立ち入り–改変</h3>';
-          text += '<p class="profile">間引きや杉の葉広いなどをして、森林を良い状態に保つ活用ができるライセンス。その過程で出た木材などの生産物の営利目的での活用も可能。</p>';
-          text += '</div>';
-          break;
-
-          case 3:
-          // alert("数値は 3");
-          text += '<img src="img/license-set_pr-np-ig.png" alt="保全–非営利–立ち入り" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">保全–非営利–立ち入り</h3>';
-          text += '<p class="profile">杉の葉やゴミなどのクリーン活動といったボランティアで活用ができるライセンス。</p>';
-          text += '</div>';
-          break;
-
-          case 4:
-          // alert("数値は 4");
-          text += '<img src="img/license-set_np-ig-md.png" alt="非営利–立ち入り–改変" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">非営利–立ち入り–改変</h3>';
-          text += '<p class="profile">標識やアートといった公共物の設置が可能なライセンス。</p>';
-          text += '</div>';
-          break;
-
-          case 5:
-          // alert("数値は 5");
-          text += '<img src="img/license-set_np-ig.png" alt="非営利–立ち入り" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">非営利–立ち入り</h3>';
-          text += '<p class="profile">バードウォッチング、トレイルラン、植生の観察といった目的の活用ができるライセンス。</p>';
-          text += '</div>';
-          break;
-
-          case 6:
-          // alert("数値は 6");
-          text += '<img src="img/license-set_ig-md.png" alt="立ち入り–改変" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">立ち入り–改変</h3>';
-          text += '<p class="profile">範囲内であれば、自由に活用して良いライセンス。</p>';
-          text += '</div>';
-          break;
-
-          default:
-          // alert("該当なし");
-          text += '<img src="img/license-set_ut.png" alt="" class="img-responsive">';
-          text += '<div class="caption">';
-          text += '<h3 class="name">利用不可</h3>';
-          text += '<p class="profile">この場所の利用は許諾されていません。</p>';
-          text += '</div>';
+          switch (licence){
+            case 0:
+            // alert("数値は 0");
+            text += '<img src="img/license-set_ut.png" alt="" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">利用不可</h3>';
+            text += '<p class="profile">この場所の利用は許諾されていません。</p>';
+            text += '</div>';
             break;
-          }
-        $('#license').html(text);
-      }
+
+            case 1:
+            // alert("数値は 1");
+            text += '<img src="img/license-set_pr-np-ig-md.png" alt="保全–非営利–立ち入り–改変" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">保全–非営利–立ち入り–改変</h3>';
+            text += '<p class="profile">間引きや杉の葉広いなどをして、森林を良い状態に保つ活用ができるライセンス。その過程で出た木材などの生産物の営利目的の使用は禁止。</p>';
+            text += '</div>';
+            break;
+
+            case 2:
+            // alert("数値は 2");
+            text += '<img src="img/license-set_pr-ig-md.png" alt="保全–立ち入り–改変" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">保全–立ち入り–改変</h3>';
+            text += '<p class="profile">間引きや杉の葉広いなどをして、森林を良い状態に保つ活用ができるライセンス。その過程で出た木材などの生産物の営利目的での活用も可能。</p>';
+            text += '</div>';
+            break;
+
+            case 3:
+            // alert("数値は 3");
+            text += '<img src="img/license-set_pr-np-ig.png" alt="保全–非営利–立ち入り" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">保全–非営利–立ち入り</h3>';
+            text += '<p class="profile">杉の葉やゴミなどのクリーン活動といったボランティアで活用ができるライセンス。</p>';
+            text += '</div>';
+            break;
+
+            case 4:
+            // alert("数値は 4");
+            text += '<img src="img/license-set_np-ig-md.png" alt="非営利–立ち入り–改変" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">非営利–立ち入り–改変</h3>';
+            text += '<p class="profile">標識やアートといった公共物の設置が可能なライセンス。</p>';
+            text += '</div>';
+            break;
+
+            case 5:
+            // alert("数値は 5");
+            text += '<img src="img/license-set_np-ig.png" alt="非営利–立ち入り" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">非営利–立ち入り</h3>';
+            text += '<p class="profile">バードウォッチング、トレイルラン、植生の観察といった目的の活用ができるライセンス。</p>';
+            text += '</div>';
+            break;
+
+            case 6:
+            // alert("数値は 6");
+            text += '<img src="img/license-set_ig-md.png" alt="立ち入り–改変" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">立ち入り–改変</h3>';
+            text += '<p class="profile">範囲内であれば、自由に活用して良いライセンス。</p>';
+            text += '</div>';
+            break;
+
+            default:
+            // alert("該当なし");
+            text += '<img src="img/license-set_ut.png" alt="" class="img-responsive">';
+            text += '<div class="caption">';
+            text += '<h3 class="name">利用不可</h3>';
+            text += '<p class="profile">この場所の利用は許諾されていません。</p>';
+            text += '</div>';
+              break;
+            }
+          $('#license').html(text);
+        }
 
 
-    }, function(e) {
-      document.getElementById('message').innerHTML = typeof e == 'string' ? e : e.message;
-    });
-  } else {
-    document.getElementById('message').innerHTML = 'Location APIがサポートされていません。';
-  }
-};
+      }, function(e) {
+        document.getElementById('message').innerHTML = typeof e == 'string' ? e : e.message;
+      });
+    } else {
+      document.getElementById('message').innerHTML = 'Location APIがサポートされていません。';
+    }
+  };
 </script>
 
 
