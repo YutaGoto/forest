@@ -93,6 +93,8 @@
         </div>
       </header>
 
+      <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
+
       <!-- About Section -->
       <section id="about" class="container content-section">
         <div class="row">
@@ -141,6 +143,8 @@
 
             <p>これらの条件を組み合わせてできる山の活用ライセンスは、<strong>ぜんぶで6種類。</strong>地権者は、自分の山をどのように活用してほしいのかを考え、必要に応じて適切なライセンスを選ぶことになります。</p>
             <p>6種類の組み合わせは以下の通りです。(ライセンスが何も表示されていない場合は、活用ができない状態になります。)</p>
+
+            <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
 
             <section id="licence-set">
               <div class="thumbnail">
@@ -227,6 +231,8 @@
         </div>
       </section>
 
+      <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
+
       <!-- Overview Section -->
       <section id="overview" class="container content-section">
 
@@ -242,6 +248,8 @@
         </div>
       </section>
 
+      <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
+
       <div class="row" style="margin-top: 20px;">
         <div class="col-lg-12">
           <a href="find2.html" class="btn btn-default btn-lg btn-block" role="button">ライセンスを取得する</a>
@@ -250,6 +258,8 @@
 
       <!-- </div> -->
     </section>
+
+    <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
 
 
     <!-- Footer -->
