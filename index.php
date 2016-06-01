@@ -93,12 +93,12 @@
         </div>
       </header>
 
-      <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
-
       <!-- About Section -->
       <section id="about" class="container content-section">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1">
+            <p class="bg-danger">本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</p>
+
             <h2>山のライセンスとは</h2>
             <p>森のクリエイティブコモンズは、森林の保全と活用を促進するために利用権利範囲を整理し意思表示するためのツールです。私有林の管理や保全のルールを地権者ごとに切り分け誰でも適切にアクセスが可能になることによって地権者・利用者ともに山からの恩恵を最大化することが可能になります。</p>
             <p>“Rights for Right Use of Forests”</p>
@@ -117,6 +117,7 @@
       <section id="licence" class="container content-section">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1">
+          <p class="bg-danger">本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</p>
             <h2>ライセンスの種類</h2>
             <p>山を活用するための<strong>条件は4種類</strong>あります。</p>
 
@@ -231,10 +232,10 @@
         </div>
       </section>
 
-      <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
-
       <!-- Overview Section -->
       <section id="overview" class="container content-section">
+
+      <p class="bg-danger">本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</p>
 
         <!-- Map Section -->
         <section id="map">
@@ -248,19 +249,16 @@
         </div>
       </section>
 
-      <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
 
       <div class="row" style="margin-top: 20px;">
         <div class="col-lg-12">
+          <p class="bg-danger">本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</p>
           <a href="find2.html" class="btn btn-default btn-lg btn-block" role="button">ライセンスを取得する</a>
         </div>
       </div>
 
       <!-- </div> -->
     </section>
-
-    <pre>本ページで表示される文章及びデータは、Field Hack ONAGAWA でのプロトタイプ として作成されたもので、実際の地権者が土地利用を許諾したものではなく、利用を保証するものではありません。</pre>
-
 
     <!-- Footer -->
     <footer>
